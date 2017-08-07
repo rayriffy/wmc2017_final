@@ -1,0 +1,82 @@
+		@media(max-width: 992px){
+			.thumb{
+				background-image: url("../assets/img/19-things-unhappy-people-do.jpg");
+				background-position: top;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 100%;
+				height: 400px;
+				left: 50%;
+				transform: translate(-50%,0);
+				position: relative;
+			}
+		}
+		@media(min-width: 992px){
+			.thumb{
+				background-image: url("../assets/img/19-things-unhappy-people-do.jpg");
+				background-position: top;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 100%;
+				height: 500px;
+				left: 50%;
+				transform: translate(-50%,0);
+				position: relative;
+			}
+		}
+
+	@font-face{
+		font-family: 'sarabun';
+		src: url('../assets/fonts/THSarabunNew.ttf') format('truetype');
+	}
+	@font-face{
+		font-family: 'sarabun bold';
+		src: url('../assets/fonts/THSarabunNew Bold.ttf') format('truetype');
+	}			
+	*{
+		font-family: "Trebuchet MS", sans-serif;
+	}
+	.container{
+		width: 100%;
+		padding: 0;
+	}
+	.con{
+		background-color: #333333;
+		color: white;
+		padding: 40px;	
+		height: 200px;
+		background-size: cover;
+		background-position: center;
+		overflow-y: auto;
+	}	
+	.info{
+	position: absolute;
+	color: white;
+	left: 60px;
+    bottom: 20px;
+	}
+	body{width: 100vw; margin:0;}
+	.row{
+	padding-top: 40px;
+	}
+	.preview{
+    margin: auto;
+    top: 50%;
+    position: absolute;
+    left: 25%;
+    transform: translate(0,-50%);
+	}
+	body{
+	overflow-x: hidden;
+	}
+	button{
+	border: none;
+	}
+	.home{
+	position: absolute;
+	color: white;
+	left: 48px;
+    top: 20px;	
+	font-size: 20px;
+	cursor: pointer;
+	}
